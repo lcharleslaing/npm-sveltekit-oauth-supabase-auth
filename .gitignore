@@ -1,0 +1,15 @@
+# add all relevant files to ignore in Git for an NPM package
+
+# .gitignore
+node_modules
+npm-debug.log
+.DS_Store
+.idea
+.vscode
+*.log
+*.log.*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local

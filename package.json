@@ -1,0 +1,37 @@
+{
+  "name": "sveltekit-oauth-supabase-auth",
+  "version": "1.0.0",
+  "description": "An authentication package for Sveltekit that integrates OAuth & Supabase to be able to Register/Login with Email/Password or Login with Github, Discord or Google and is facilitated by and user data storeed in Supabebase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"test\": \"put your test command here\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://"
+  },
+  "keywords": [
+    "OAuth",
+    "Supabase",
+    "Sveltekit",
+    "Auth",
+    "Authentication",
+    "Github",
+    "Discord",
+    "Google",
+    "Register",
+    "Login"
+  ],
+  "author": "Lee Charles Laing <lcharleslaing@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/auth-helpers-sveltekit": "^0.13.0",
+    "@supabase/supabase-js": "^2.42.7",
+    "@sveltejs/kit": "^2.5.7",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.9.2",
+    "svelte-preprocess": "^4.10.7",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  }
+}
